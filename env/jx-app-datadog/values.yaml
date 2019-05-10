@@ -1,0 +1,4 @@
+datadog:
+  apiKey: vault:gitOps/dgozalo/environment-wolverinewood-dev/datadog-apikey-secret:token-passthrough
+  logEnabled: false
+  site: datadoghq.com
