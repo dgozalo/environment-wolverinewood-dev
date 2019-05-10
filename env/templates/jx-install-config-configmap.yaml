@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRALFoW1Ztt/1hDQ2k2ItXh5kwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkY2U2Nzg3OWYtYWIyMC00OWEyLWI2NWQtZDcwMTNhYmQxZjkw
+    MB4XDTE5MDUxMDA4MDYwM1oXDTI0MDUwODA5MDYwM1owLzEtMCsGA1UEAxMkY2U2
+    Nzg3OWYtYWIyMC00OWEyLWI2NWQtZDcwMTNhYmQxZjkwMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEA67gdEwTB+TB8VGGkfbmpd5pmO/PggRFVRJW4aOrI
+    WmOgMSppoiaFSGR0mAbJt1ko37450tb86Sh8wiYLbSPuI0FGblegknAf18eP1HcC
+    dVwNhyVRMI61rHB4CWugLpqht3N/N6vO6wWZbmPSLdj2f1NH6lq3sQAujIbQPs1K
+    QdrD/hUNTcObdx+FqD02/7v6h8GZ7lAPnc7yhr2bN15u7hsKhqRAATlni1emnX6U
+    J7IV9WPMXLX4ZOSZop3x0M9nTJruhZCed7gzAAfjlutukJaMdkuS5IcPLowvhn+t
+    /1tNnz0QupjBG7vir5xjMM4AoXc5gI6q5zhkjLh09x+VywIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    EaXb8HLnEUMbNSL0a8GnD66a+RjMzktV+QoDAfF1OuG/bTHlwhDEk20yY51MBCxG
+    AXdwymvdEjNK8wZR80P9zLDDUY5wP+uoVYojuOYjNqpX0adzl/943VlKCY5pVMyh
+    9PKEOiMuHUx5cgofLvCEEFeS/huf4b8sauBHKLusqnkQ/me12le/zjSMU4nUbAjB
+    5fh4iXvydCkPliV8zVAs3dbkLZS+fdaVOjSn0aWfeMgU7k9GfkMiBQh5HCvBBkVK
+    7i1LKhEaPYq5GdU8ebea8/cvBJ3nWkTGHwonMCLLY2a45kDsNzIgc76k1/g+vmR3
+    jT4gfFNiwwNYJhz24B4bzg==
+    -----END CERTIFICATE-----
+  clusterName: wolverinewood
+  jx-install-version: 2.0.0-dev+e0e2434db
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://35.233.70.96
+  systemVaultName: jx-vault-wolverinewood
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
